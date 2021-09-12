@@ -102,11 +102,8 @@ struct naturalFeature{
     bool isPoly = false;
 };
 
-//external std::vector<>
 extern std::map<FeatureType, std::vector<FeatureIdx>> PolyFeatureList;
 extern std::map<FeatureType, std::vector<FeatureIdx>> LineFeatureList;
-
-//extern std::vector<>
 
 /* External structures */
 extern std::vector<naturalFeature> NaturalFeatureList;
