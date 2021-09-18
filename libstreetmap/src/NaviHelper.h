@@ -15,9 +15,9 @@ struct IntersectNaviInfo{
 };
 
 struct WaveElem{
-    int IntersectId;
-    int reachingEdge;
-    double travelTime;
+    int IntersectId;        // Intersection currently at
+    int reachingEdge;       // Edge that come from
+    double travelTime;      // Time require travel for reachingEdge
 
     WaveElem (int curI, int rE, double tT) {
         IntersectId = curI;
